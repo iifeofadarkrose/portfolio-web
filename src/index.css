@@ -6,5 +6,6 @@
 *{
     scroll-behavior: smooth;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 

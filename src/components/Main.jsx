@@ -25,6 +25,7 @@ const Main = () => {
           loop={true}
           muted={true}
           style={{ minWidth: '100%', minHeight: '100%' }}
+          playsInline={true}
         />
       </div>
       <div className="max-w-[700px] m-auto pt-64 py-20 flex flex-col justify-center lg:items-start items-center">

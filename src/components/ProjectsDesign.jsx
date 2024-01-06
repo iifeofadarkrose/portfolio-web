@@ -16,7 +16,7 @@ const Projects = () => {
       const scrolled = window.scrollY;
       const windowHeight = window.innerHeight;
 
-      const projects = document.getElementById('projects');
+      const projects = document.getElementById('projects-design');
       const projectsTop = projects.offsetTop;
 
       if (scrolled > projectsTop - windowHeight / 2) {

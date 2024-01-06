@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaTwitter, FaInstagram, FaFacebookF } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
+import BG from '../../src/assets/vd-bg.mp4'
 const Main = () => {
   return (
     <div id="main" style={{ position: 'relative', height: '100vh' }}>
@@ -19,7 +19,7 @@ const Main = () => {
       >
         <video
           className="w-full h-full object-cover object-center"
-          src="src\assets\pexels-cottonbro-9694223 (Original).mp4"
+          src={BG}
           alt="/"
           autoPlay={true}
           loop={true}

@@ -11,7 +11,7 @@ const Sidenav = () => {
 
     return (
         <div>
-            <AiOutlineMenu size={40} onClick={handleNav} className='absolute top-4 right-4 z-[99] border m-3 p-2 rounded-3xl border-[#001b5e] md:hidden' />
+            <AiOutlineMenu size={40} onClick={handleNav} className='absolute fill-white top-4 right-4 z-[99] border m-3 p-2 rounded-3xl border-white md:hidden' />
             {nav ? (
                  <div className='fixed w-[85%] h-screen bg-black/75 flex flex-col justify-center items-center z-20'>
                  <a onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-800'>
@@ -26,9 +26,9 @@ const Sidenav = () => {
                      <AiOutlineProject size={20}/>
                      <span className='pl-4 '>Projects</span>
                  </a>
-                 <a onClick={handleNav} href="#main" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-800'>
+                 <a onClick={handleNav} href="#projects-design" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-800'>
                      <AiOutlinePicture size={20}/>
-                     <span className='pl-4 '>Resume</span>
+                     <span className='pl-4 '>Projects-design</span>
                  </a>
                  <a onClick={handleNav} href="#contact" className='w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-800'>
                      <AiOutlineMail size={20}/>

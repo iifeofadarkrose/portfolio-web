@@ -34,10 +34,10 @@ const Projects = () => {
   }, [controlsLeft, controlsRight]);
 
   return (
-    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 py-16'>
+    <div id='projects' className='max-w-[1040px] m-auto md:pl-20 p-4 overflow-hidden'>
       <h1 className='text-4xl font-bold text-center text-white'>Projects</h1>
-      <p className='text-center py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque voluptate nemo laboriosam magni dolore officia repellat saepe, quis delectus!</p>
-      <motion.div className='grid grid-cols-2 gap-12'>
+      <p className='text-center text-white py-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium neque voluptate nemo laboriosam magni dolore officia repellat saepe, quis delectus!</p>
+      <motion.div className='sm:grid grid-cols-2 gap-12'>
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={controlsLeft}

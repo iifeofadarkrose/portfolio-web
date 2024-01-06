@@ -5,5 +5,9 @@
 
 *{
     scroll-behavior: smooth;
+    overflow-y:hidden;
 }
 
+h1{
+    overflow-y:hidden;
+}

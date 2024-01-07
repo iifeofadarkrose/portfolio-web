@@ -4,7 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import comp from "../assets/comp.png";
 const Main = () => {
   return (
-    <div id="main" className="mb-[50%] md:mb-[10%]" style={{ position: "relative", height: "100vh" }}>
+    <div id="main" className="mb-[50%]  md:mb-[10%]" style={{ position: "relative", height: "100vh" }}>
       <div
         style={{
           position: "absolute",

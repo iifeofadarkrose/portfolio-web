@@ -1,7 +1,7 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaBehance, FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
+import comp from "../assets/comp.png";
 const Main = () => {
   return (
     <div id="main" style={{ position: "relative", height: "100vh" }}>
@@ -18,7 +18,7 @@ const Main = () => {
         }}
       >
         <img
-          src="../../src/assets/comp.png"
+          src={comp}
           className="w-full h-full object-cover object-center"
           alt=""
         />

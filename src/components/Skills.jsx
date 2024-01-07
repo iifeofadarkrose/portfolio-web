@@ -18,14 +18,14 @@ const Skills = () => {
         <p className="text-[12px] text-gray-500 md:text-2xl">
           A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.
         </p>
-        <h1 className="text-md uppercase m-4 md:text-5xl">
+        <h1 className="text-xl uppercase m-4 md:text-5xl">
           Skills & Experience
         </h1>
         <p className="mb-4 text-center">
           The main area of expertise is front-end development (Design and
           client-side of the web).
         </p>
-        <h2 className="text-md my-8 md:text-lg text-center">
+        <h2 className="text-sm my-8 md:text-lg text-center">
           HTML, CSS, JS, building small and medium web applications with React,
           custom plugins, features, animations, and coding interactive layouts.
           We have also full-stack developer experience with one of the most
@@ -67,22 +67,22 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="flex justify-center flex-row items-center gap-4 mb-44 md:gap-10 mt-12 md:mt-20">
+        <div className="flex justify-center flex-row items-center mb-60 gap-4 md:gap-10 mt-12 md:mt-20">
           <div className="flex flex-col items-center">
-            <FaFigma className="fill-white text-2xl md:text-3xl lg:text-6xl" />
-            <p className="text-white text-xl mt-2">Figma</p>
+            <FaFigma className="fill-white text-xl md:text-3xl lg:text-6xl" />
+            <p className="text-white  mt-2">Figma</p>
           </div>
           <div className="flex flex-col items-center">
-            <DiPhotoshop className="fill-white text-2xl md:text-3xl lg:text-6xl" />
-            <p className="text-white text-xl mt-2">Photoshop</p>
+            <DiPhotoshop className="fill-white text-xl md:text-3xl lg:text-6xl" />
+            <p className="text-white  mt-2">Photoshop</p>
           </div>
           <div className="flex flex-col items-center">
-            <DiIllustrator className="fill-white text-2xl md:text-3xl lg:text-6xl" />
-            <p className="text-white text-xl mt-2">Illustrator</p>
+            <DiIllustrator className="fill-white text-xl md:text-3xl lg:text-6xl" />
+            <p className="text-white mt-2">Illustrator</p>
           </div>
           <div className="flex flex-col items-center">
-            <FaSketch className="fill-white text-2xl md:text-3xl lg:text-6xl" />
-            <p className="text-white text-xl mt-2">Sketch</p>
+            <FaSketch className="fill-white text-xl md:text-3xl lg:text-6xl" />
+            <p className="text-white mt-2">Sketch</p>
           </div>
         </div>
       </div>

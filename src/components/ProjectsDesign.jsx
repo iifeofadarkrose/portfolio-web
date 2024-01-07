@@ -36,7 +36,7 @@ const Projects = () => {
   return (
     <div
       id="projects-design"
-      className="max-w-[1040px] m-auto md:pl-20 p-4 overflow-hidden mt-[5%]"
+      className="max-w-[1040px] m-auto md:pl-20 p-4 overflow-hidden sm:mt-[10%]"
     >
       <h1 className="text-4xl font-bold text-center text-white">
         Web-design projects

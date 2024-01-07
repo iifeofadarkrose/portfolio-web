@@ -2,12 +2,13 @@ import { useState, useEffect } from "react";
 import { BallTriangle } from "react-loader-spinner";
 import Sidenav from "./components/Sidenav";
 import Main from "./components/Main";
-import Work from "./components/Work";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import ProjectsDesign from "./components/ProjectsDesign";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
 import { loadSlim } from "@tsparticles/slim";
+import Skills from "./components/Skills";
+import { motion } from "framer-motion";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -30,6 +31,20 @@ function App() {
       });
     }
   }, [loading]);
+
+  const scrollToTop = () => {
+    const scrollToTopAnimation = () => {
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+
+      if (scrollTop > 0) {
+        window.scrollTo(0, scrollTop - 45); // Шаг скролла - уменьшение на 20 пикселей
+        window.requestAnimationFrame(scrollToTopAnimation);
+      }
+    };
+
+    scrollToTopAnimation();
+  };
 
   return (
     <div
@@ -146,10 +161,33 @@ function App() {
           <div style={{ position: "relative", zIndex: 1 }}>
             <Sidenav />
             <Main />
-            <Work />
+            <Skills />
             <Projects />
             <ProjectsDesign />
             <Contact />
+            <motion.button
+              whileTap={{ scale: 0.9 }} // Эффект при нажатии кнопки
+              onClick={scrollToTop}
+              style={{
+                position: "fixed",
+                bottom: "20px",
+                right: "20px",
+                width: "50px",
+                height: "50px",
+                borderRadius: "50%",
+                backgroundColor: "#ffffff",
+                border: "none",
+                outline: "none",
+                cursor: "pointer",
+                display: "flex",
+                justifyContent: "center",
+                alignItems: "center",
+                boxShadow: "0px 2px 5px rgba(0, 0, 0, 0.2)",
+                zIndex: 9999,
+              }}
+            >
+              <span style={{ fontSize: "30px", lineHeight: "0" }}>↑</span>
+            </motion.button>
           </div>
         )}
       </div>

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { motion, useAnimation } from 'framer-motion';
+import { useAnimation } from 'framer-motion';
 
 const Contact = () => {
   const controls = useAnimation();
@@ -24,12 +24,9 @@ const Contact = () => {
   }, [controls]);
 
   return (
-    <motion.div
+    <div
       id="contact"
       className="max-w-[1040px] m-auto md:pl-20 p-4 py-16"
-      initial={{ opacity: 0, y: 30 }}
-      animate={controls}
-      transition={{ duration: 0.5 }}
     >
       <h1 className="py-4 text-4xl font-bold text-center text-white">Contact</h1>
       <form action="https://getform.io/f/b5c3b966-294b-4999-b976-a711d8446b43" method="POST" encType="multipart/form-data">
@@ -59,7 +56,7 @@ const Contact = () => {
             Send Message
         </button>
       </form>
-    </motion.div>
+    </div>
   );
 };
 

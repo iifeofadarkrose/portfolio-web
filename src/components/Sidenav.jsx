@@ -45,7 +45,7 @@ const Sidenav = () => {
                     <Link
                         to='main'
                         smooth={true}
-                        offset={200}
+                        offset={-80} 
                         duration={700}
                         className='w-[75%] flex justify-center item-center rounded-full shadow-lg bg-gray-100 border-[#001b5e] border-2 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineHome size={20} />
@@ -53,7 +53,7 @@ const Sidenav = () => {
                     <Link
                         to='work'
                         smooth={true}
-                        offset={200}
+                        offset={-80} 
                         duration={700}
                         className='w-[75%] flex justify-center item-center rounded-full shadow-lg bg-gray-100 border-[#001b5e] border-2 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <GrProjects size={20} />
@@ -61,7 +61,7 @@ const Sidenav = () => {
                     <Link
                         to='projects'
                         smooth={true}
-                        offset={200}
+                        offset={-80} 
                         duration={700}
                         className='w-[75%] flex justify-center item-center rounded-full shadow-lg bg-gray-100 border-[#001b5e] border-2 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlineProject size={20} />
@@ -69,7 +69,7 @@ const Sidenav = () => {
                     <Link
                         to='projects-design'
                         smooth={true}
-                        offset={200}
+                        offset={-80} 
                         duration={700}
                         className='w-[75%] flex justify-center item-center rounded-full shadow-lg bg-gray-100 border-[#001b5e] border-2 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                         <AiOutlinePicture size={20} />

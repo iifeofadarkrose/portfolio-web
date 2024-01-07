@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProjectItem from "./ProjectItem";
-import Books from "../assets/Home.png";
+import Books from "../assets/HOME.png";
 import webstudio from "../assets/Tablet.png";
 import bodyparts from "../assets/Body Parts.png";
 import choko from "../assets/desktop.png";

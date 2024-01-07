@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import ProjectItem from "./ProjectItem";
 import Books from "../assets/HOME.png";
 import webstudio from "../assets/Tablet.png";
-import bodyparts from "../assets/Body Parts.png";
+import bodyparts from "../assets/BodyParts.png";
 import choko from "../assets/desktop.png";
 
 const Projects = () => {

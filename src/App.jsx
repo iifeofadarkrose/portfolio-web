@@ -38,7 +38,7 @@ function App() {
         window.pageYOffset || document.documentElement.scrollTop;
 
       if (scrollTop > 0) {
-        window.scrollTo(0, scrollTop - 45); // Шаг скролла - уменьшение на 20 пикселей
+        window.scrollTo(0, scrollTop - 45);
         window.requestAnimationFrame(scrollToTopAnimation);
       }
     };
@@ -166,7 +166,7 @@ function App() {
             <ProjectsDesign />
             <Contact />
             <motion.button
-              whileTap={{ scale: 0.9 }} // Эффект при нажатии кнопки
+              whileTap={{ scale: 0.9 }}
               onClick={scrollToTop}
               style={{
                 position: "fixed",

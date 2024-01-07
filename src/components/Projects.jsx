@@ -3,7 +3,7 @@ import { motion, useAnimation } from "framer-motion";
 import ProjectItem from "./ProjectItem";
 import Books from "../assets/HOME.png";
 import webstudio from "../assets/Tablet.png";
-import bodyparts from "../assets/BodyParts.png";
+import power from "../assets/power.png";
 import choko from "../assets/desktop.png";
 
 const Projects = () => {
@@ -81,7 +81,7 @@ const Projects = () => {
           </div>
           <div className="mb-12">
             <ProjectItem
-              img={bodyparts}
+              img={power}
               moreInfoLink={"https://vern-gora.github.io/PowerPulse"}
               title="Powerpulse project"
             />

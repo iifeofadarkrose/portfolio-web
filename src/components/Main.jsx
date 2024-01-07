@@ -18,7 +18,7 @@ const Main = () => {
         }}
       >
         <img
-           src="/assets/comp.jpg"
+          src="../../src/assets/comp.png"
           className="w-full h-full object-cover object-center"
           alt=""
         />

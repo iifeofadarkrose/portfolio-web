@@ -1,10 +1,17 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaBehance, FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import { IoMailOutline } from "react-icons/io5";
+import { AiOutlineMail } from "react-icons/ai";
+
 import comp from "../assets/comp.png";
 const Main = () => {
   return (
-    <div id="main" className="mb-[50%]  md:mb-[10%]" style={{ position: "relative", height: "100vh" }}>
+    <div
+      id="main"
+      className="mb-[50%]  md:mb-[10%]"
+      style={{ position: "relative", height: "100vh" }}
+    >
       <div
         style={{
           position: "absolute",
@@ -57,6 +64,9 @@ const Main = () => {
           </a>
           <a href="https://www.linkedin.com/in/viacheslav-babenko/">
             <FaLinkedin className="cursor-pointer fill-white" size={24} />
+          </a>
+          <a href="mailto:babenkovyacheslav17@gmail.com">
+            <AiOutlineMail className="cursor-pointer fill-white" size={26} />
           </a>
         </div>
       </div>

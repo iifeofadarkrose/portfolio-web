@@ -9,12 +9,11 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist -b main"
-
-
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",
     "framer-motion": "^10.17.9",
+    "fs-extra": "^11.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",

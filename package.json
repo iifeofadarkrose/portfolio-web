@@ -7,8 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "deploy": "gh-pages -d dist -b main"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@tsparticles/react": "^3.0.0",

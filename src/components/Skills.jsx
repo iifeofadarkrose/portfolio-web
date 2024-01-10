@@ -13,7 +13,7 @@ import { SiExpress } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div id="work" className="flex justify-center h-screen font-medium mt-[5%]">
+    <div id="work" className="flex justify-center font-medium">
       <div className="max-w-xs text-white flex justify-center flex-col items-center md:max-w-4xl">
         <p className="text-[12px] text-gray-500 md:text-2xl">
           A PROBLEM IS A CHANCE FOR YOU TO DO YOUR BEST.
@@ -67,7 +67,7 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="flex justify-center flex-row items-center mb-60 gap-4 md:gap-10 mt-12 md:mt-20">
+        <div className="flex justify-center flex-row items-center mt-[5%] mb-[5%] gap-4 md:gap-10 md:mt-20">
           <div className="flex flex-col items-center">
             <FaFigma className="fill-white text-xl md:text-3xl lg:text-6xl" />
             <p className="text-white  mt-2">Figma</p>

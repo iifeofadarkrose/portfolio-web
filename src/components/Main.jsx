@@ -4,35 +4,23 @@ import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
 import comp from "../assets/comp.png";
+
 const Main = () => {
   return (
-    <div
-      id="main"
-      className="mb-[30%] sm:mb-[35%] md:mb-[10%]"
-      style={{ position: "relative", height: "100vh" }}
-    >
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          width: "100%",
-          height: "100%",
-          overflow: "hidden",
-          zIndex: -1,
-        }}
-      >
+    <div id="main" className="mb-[30%] sm:mb-[35%] md:mb-[10%] relative h-screen">
+      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-[-1]">
         <img
           src={comp}
           className="w-full h-full object-cover object-center"
           alt=""
+          loading="lazy"
         />
       </div>
-      <div className="ssm: max-w-[800px] m-auto py-20 flex flex-col justify-center lg:items-start pl-[20%] pt-[30%] ">
-        <h1 className="smm:text-2xl sm:text-4xl text-white">
+      <div className="max-w-[800px] mx-auto py-20 flex flex-col justify-center lg:items-start pl-[20%] pt-[30%]">
+        <h1 className="text-lg sm:text-4xl text-white">
           Group of web developers/designers
         </h1>
-        <h2 className="flex flex-nowrap center text-lg pt-4 text-white md:text-2xl lg:text-3xl ">
+        <h2 className="flex flex-nowrap center text-md pt-4 text-white md:text-2xl lg:text-3xl">
           We make
           <TypeAnimation
             sequence={[

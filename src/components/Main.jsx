@@ -1,7 +1,6 @@
 import { TypeAnimation } from "react-type-animation";
 import { FaBehance, FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-import { IoMailOutline } from "react-icons/io5";
 import { AiOutlineMail } from "react-icons/ai";
 
 import comp from "../assets/comp.png";
@@ -9,7 +8,7 @@ const Main = () => {
   return (
     <div
       id="main"
-      className="mb-[50%]  md:mb-[10%]"
+      className="mb-[30%] sm:mb-[35%] md:mb-[10%]"
       style={{ position: "relative", height: "100vh" }}
     >
       <div

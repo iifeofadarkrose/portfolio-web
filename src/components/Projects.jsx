@@ -64,6 +64,7 @@ const Projects = () => {
                 "https://iifeofadarkrose.github.io/Project-Chocolate/"
               }
               title="Project Chocolate"
+              className="cursor-pointer"
             />
           </div>
         </motion.div>

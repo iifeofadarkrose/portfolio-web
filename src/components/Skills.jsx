@@ -21,7 +21,7 @@ const Skills = () => {
         <h1 className="text-xl uppercase m-4 md:text-5xl">
           Skills & Experience
         </h1>
-        <p className="mb-4 text-center">
+        <p className="mb-4 text-center md:text-xl">
           The main area of expertise is front-end development (Design and
           client-side of the web).
         </p>

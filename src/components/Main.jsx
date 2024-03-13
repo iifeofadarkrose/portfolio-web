@@ -16,7 +16,7 @@ const Main = () => {
           loading="lazy"
         />
       </div>
-      <div className="max-w-[800px] py-20 flex flex-col justify-center lg:items-start pl-[100px] pt-[100px]">
+      <div className="max-w-[800px] py-20 flex flex-col justify-center lg:items-start pl-[100px] pt-[100px] lg:mx-auto">
         <h1 className="text-lg sm:text-4xl md:text-5xl text-white">
           Group of web <br/> developers/designers
         </h1>

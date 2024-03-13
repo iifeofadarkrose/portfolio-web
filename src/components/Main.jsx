@@ -16,11 +16,11 @@ const Main = () => {
           loading="lazy"
         />
       </div>
-      <div className="max-w-[800px] mx-auto py-20 flex flex-col justify-center lg:items-start pl-[20%] pt-[30%]">
-        <h1 className="text-lg sm:text-4xl text-white">
+      <div className="max-w-[800px] py-20 flex flex-col justify-center lg:items-start pl-[100px] pt-[100px]">
+        <h1 className="text-lg sm:text-4xl md:text-5xl text-white">
           Group of web <br/> developers/designers
         </h1>
-        <h2 className="flex flex-nowrap center text-md pt-4 text-white md:text-2xl lg:text-3xl">
+        <h2 className="flex flex-nowrap center text-md pt-4 text-white md:text-3xl lg:text-3xl">
           We make
           <TypeAnimation
             sequence={[

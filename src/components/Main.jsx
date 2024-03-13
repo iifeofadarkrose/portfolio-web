@@ -8,7 +8,7 @@ import comp from "../../public/prof.jpg";
 const Main = () => {
   return (
     <div id="main" className="mb-[30%] sm:mb-[35%] md:mb-[10%] relative h-screen">
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden z-[-1]">
+      <div className="opacity-70 absolute top-0 left-0 w-full h-full overflow-hidden z-[-1]">
         <img
           src={comp}
           className="w-full h-full object-cover object-center"

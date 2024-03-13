@@ -3,7 +3,7 @@ import { FaBehance, FaGithubAlt } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { AiOutlineMail } from "react-icons/ai";
 
-import comp from "../assets/comp.png";
+import comp from "../../public/prof.jpg";
 
 const Main = () => {
   return (
@@ -18,7 +18,7 @@ const Main = () => {
       </div>
       <div className="max-w-[800px] mx-auto py-20 flex flex-col justify-center lg:items-start pl-[20%] pt-[30%]">
         <h1 className="text-lg sm:text-4xl text-white">
-          Group of web developers/designers
+          Group of web <br/> developers/designers
         </h1>
         <h2 className="flex flex-nowrap center text-md pt-4 text-white md:text-2xl lg:text-3xl">
           We make

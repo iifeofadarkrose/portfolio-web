@@ -5,6 +5,8 @@ import Books from "../assets/HOME.png";
 import webstudio from "../assets/Tablet.png";
 import power from "../assets/power.png";
 import choko from "../assets/desktop.png";
+import April from "../assets/April.png";
+import Dashboard from "../assets/Dashboard.png";
 
 const Projects = () => {
   const controlsLeft = useAnimation();
@@ -67,6 +69,13 @@ const Projects = () => {
               className="cursor-pointer"
             />
           </div>
+          <div className="mb-12">
+            <ProjectItem
+              img={April}
+              moreInfoLink={"https://aprilconcepte.com/"}
+              title="April Design Group"
+            />
+          </div>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, x: 100 }}
@@ -87,6 +96,14 @@ const Projects = () => {
               title="Powerpulse project"
             />
           </div>
+          <div className="mb-12">
+            <ProjectItem
+              img={Dashboard}
+              moreInfoLink={"https://dashboard-theta-liart.vercel.app/dashboard"}
+              title="Powerpulse project"
+            />
+          </div>
+          
         </motion.div>
       </motion.div>
     </div>

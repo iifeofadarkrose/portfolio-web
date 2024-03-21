@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 import ProjectItem from "./ProjectItem";
 import Books from "../assets/HOME.png";
@@ -9,23 +9,24 @@ import April from "../assets/April.png";
 import Dashboard from "../assets/Dashboard.png";
 
 const Projects = () => {
+  const [animationPlayed, setAnimationPlayed] = useState(false);
   const controlsLeft = useAnimation();
   const controlsRight = useAnimation();
 
   useEffect(() => {
     const handleScroll = () => {
-      const scrolled = window.scrollY;
-      const windowHeight = window.innerHeight;
+      if (!animationPlayed) {
+        const scrolled = window.scrollY;
+        const windowHeight = window.innerHeight;
 
-      const projects = document.getElementById("projects");
-      const projectsTop = projects.offsetTop;
+        const projects = document.getElementById("projects");
+        const projectsTop = projects.offsetTop;
 
-      if (scrolled > projectsTop - windowHeight / 2) {
-        controlsLeft.start({ opacity: 1, x: 0 });
-        controlsRight.start({ opacity: 1, x: 0 });
-      } else {
-        controlsLeft.start({ opacity: 0, x: -100 });
-        controlsRight.start({ opacity: 0, x: 100 });
+        if (scrolled > projectsTop - windowHeight / 2) {
+          controlsLeft.start({ opacity: 1, x: 0 });
+          controlsRight.start({ opacity: 1, x: 0 });
+          setAnimationPlayed(true);
+        }
       }
     };
 
@@ -33,7 +34,7 @@ const Projects = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [controlsLeft, controlsRight]);
+  }, [controlsLeft, controlsRight, animationPlayed]);
 
   return (
     <div
